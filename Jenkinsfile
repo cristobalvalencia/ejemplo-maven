@@ -11,13 +11,11 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh "./mvnw.cmd clean test -e"
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh "./mvnw.cmd clean package -e"
             }
         }
     }
