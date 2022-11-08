@@ -1,6 +1,6 @@
 #Actualización -- 08/11/2022
 
-Se modifica archivo 'RestData.java' ubicado en ruta '/src/main/java/com/devopsusach2020/rest' para que no alerte que el método 'getBody()' puede retornar 'null'
+Se modifica archivo 'RestData.java' ubicado en la ruta '/src/main/java/com/devopsusach2020/rest' para que no alerte que el método 'getBody()' puede retornar 'null'
 
 
 # Getting Started
