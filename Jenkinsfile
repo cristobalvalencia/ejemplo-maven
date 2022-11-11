@@ -15,8 +15,10 @@ pipeline {
         }
 		stage('SonarQube analysis') {
 			steps{
-				sh 'mvn clean package sonar:sonar'			
-			}
+				withSonarQubeEnv('My SonarQube Server') {
+               			sh 'mvn clean package sonar:sonar'
+              			}			
+			}		
 		}
 		
 
